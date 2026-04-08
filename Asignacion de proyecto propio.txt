@@ -1,0 +1,171 @@
+Proyecto: Calculadora de propinas en Python
+1. Definir qué hará tu programa
+
+Primero debes tener claro el objetivo.
+
+Tu calculadora puede:
+
+Pedir el total de la cuenta
+Pedir el porcentaje de propina
+Calcular cuánto es la propina
+Calcular el total a pagar
+Opcional: dividir la cuenta entre varias personas
+2. Planear las entradas del usuario
+
+Piensa qué datos va a escribir la persona.
+
+Por ejemplo:
+
+Monto de la cuenta
+Porcentaje de propina
+Número de personas
+3. Planear los cálculos
+
+Debes definir las fórmulas.
+
+Fórmulas básicas:
+Propina = total_cuenta * porcentaje / 100
+Total a pagar = total_cuenta + propina
+Pago por persona = total_a_pagar / número_personas
+4. Diseñar la estructura del programa
+
+Antes de escribir código, organiza el orden.
+
+Orden recomendado:
+Mostrar un mensaje de bienvenida
+Pedir el total de la cuenta
+Pedir el porcentaje de propina
+Calcular la propina
+Calcular el total final
+Mostrar resultados
+Opcional: preguntar si se divide entre personas
+5. Escribir el código en Python
+
+Debes usar:
+
+print() para mostrar mensajes
+input() para pedir datos
+float() para números con decimales
+int() para números enteros
+variables para guardar datos
+operaciones matemáticas
+6. Validar los datos
+
+Esto es muy importante para que el programa no falle.
+
+Debes revisar:
+
+Que el total de la cuenta no sea negativo
+Que el porcentaje no sea negativo
+Que el número de personas sea mayor que 0
+Que el usuario escriba números y no texto
+7. Mostrar los resultados de forma clara
+
+El programa debe enseñar:
+
+Cuánto es la propina
+Cuál es el total final
+Cuánto paga cada persona, si aplica
+
+Ejemplo:
+
+Propina: ₡1500
+Total a pagar: ₡11500
+Pago por persona: ₡5750
+8. Probar el programa
+
+Haz varias pruebas con diferentes datos.
+
+Ejemplos de prueba:
+Cuenta de 10000 con 10%
+Cuenta de 25500 con 15%
+Cuenta de 50000 con 20% entre 4 personas
+
+También prueba errores:
+
+escribir letras
+poner 0 personas
+poner números negativos
+9. Corregir errores
+
+Cuando pruebes, revisa si:
+
+los cálculos salen bien
+el programa se cae
+los mensajes se entienden
+los resultados se ven ordenados
+10. Mejorar el programa
+
+Cuando ya funcione, puedes agregar extras.
+
+Ideas de mejora:
+Menú de opciones
+Repetir el programa varias veces
+Elegir porcentajes rápidos: 10%, 15%, 20%
+Redondear resultados con round()
+Usar funciones para organizar mejor el código
+Agregar interfaz gráfica después
+Lista de tareas para tu proyecto
+Fase 1: Planeación
+ Elegir el objetivo del programa
+ Definir qué datos va a ingresar el usuario
+ Definir qué resultados mostrará
+ Escribir las fórmulas que vas a usar
+Fase 2: Programación
+ Crear el archivo en Python
+ Escribir mensaje de bienvenida
+ Pedir el total de la cuenta
+ Pedir el porcentaje de propina
+ Hacer el cálculo de la propina
+ Hacer el cálculo del total final
+ Mostrar resultados
+Fase 3: Extras
+ Pedir número de personas
+ Calcular cuánto paga cada una
+ Agregar validaciones
+ Redondear números
+ Permitir repetir el programa
+Fase 4: Revisión
+ Probar con varios ejemplos
+ Corregir errores
+ Mejorar presentación del programa
+ Comentar el código
+Herramientas o temas de Python que vas a usar
+
+Para este proyecto debes conocer un poco de:
+
+Variables
+input()
+print()
+float()
+int()
+Operaciones matemáticas
+if y else
+while opcional
+Funciones opcional
+try y except opcional para errores
+Versión básica del proyecto
+
+Tu proyecto mínimo debería hacer esto:
+
+Pedir monto de la cuenta
+Pedir porcentaje de propina
+Calcular propina
+Calcular total
+Mostrar resultados
+Versión un poco más completa
+
+Además de lo básico, puede:
+
+Dividir la cuenta entre personas
+Validar errores
+Repetirse varias veces
+Tener mejor formato en pantalla
+Consejo para presentarlo
+
+Si es un proyecto propio, puedes explicar así:
+
+Nombre del proyecto: Calculadora de Propinas en Python
+Objetivo: Calcular automáticamente la propina y el total a pagar en una cuenta.
+Funcionalidad: El usuario ingresa el monto de la cuenta y el porcentaje de propina, y el programa muestra el monto de la propina y el total final.
+Mejoras posibles: Dividir la cuenta, validar datos y repetir cálculos.
